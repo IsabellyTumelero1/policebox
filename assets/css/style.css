@@ -58,8 +58,7 @@ header nav.menu-perfil{
 }
 
 #banner{
-    background-color: var(--color-green-light);
-    height: 100%;
+    background-color: tomato;
 }
 
 .container-carrossel{
@@ -70,28 +69,4 @@ header nav.menu-perfil{
 
 .container-carrossel img{
     width: 100%;
-}
-
-.container-carrossel button{
-    position: absolute;
-    top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--color-white);
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
- 
-.container-carrossel button.prev{
-    left: 10px;
-}
- 
-.container-carrossel button.next{
-    right: 10px;
-}
- 
-.carrossel{
-    display: flex;
-    transition: transform 1s ease-in-out;
-    /* transform: translateX(-300%); */
 }
